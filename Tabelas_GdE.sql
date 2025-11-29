@@ -8,7 +8,7 @@ CREATE TABLE operador (
 -- Endereco --
 CREATE TABLE endereco (
     id_endereco INT PRIMARY KEY AUTO_INCREMENT,
-    rua INT,
+    rua VARCHAR(2),
     predio INT,
     nivel INT,
     apto INT
